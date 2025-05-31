@@ -22,8 +22,8 @@ This is a Model Context Protocol (MCP) server for interacting with the ZeroBounc
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/mcp-zerobounce.git
-cd mcp-zerobounce
+git clone https://github.com/avivshafir/zerobounce-mcp-server
+cd zerobounce-mcp-server
 ```
 
 2. Install the required dependencies:
@@ -57,7 +57,7 @@ Add the following configuration to the `mcp.json` file, replacing the directory 
   "mcpServers": {
     "zerobounce": {
       "command": "python",
-      "args": ["/path/to/your/mcp-zerobounce/main.py"]
+      "args": ["/path/to/your/zerobounce-mcp-server/main.py"]
     }
   }
 }
